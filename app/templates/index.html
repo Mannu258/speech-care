@@ -341,7 +341,8 @@
 
 
     <!--  ************************* Contact Us Starts Here ************************** -->
-
+<form action="" method="post">
+    {% csrf_token %}
     <section id="contact_us" class="contact-us-single container-fluid">
         <div class="row no-margin">
             <div class="col-sm-6 cop-ck">
@@ -376,7 +377,7 @@
             </div>
         </div>
     </section>
-
+</form>
 
     <!-- ################# Footer Starts Here#######################--->
 
@@ -409,6 +410,7 @@
                     <address class="md-margin-bottom-40">
                         Email: <a href="mailto:support@speechcare.in" class="">support@speechcare.in</a><br>
                         <form method="post">
+                            {% csrf_token %}
                             <input type="email" name="lemail" id="" placeholder="Email"><br>
                             <button type="submit" class="btn btn-primary m-1">Submit</button>
 
