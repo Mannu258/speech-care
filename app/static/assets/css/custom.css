@@ -1,0 +1,43 @@
+
+.faq-header {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .faq-question {
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .faq-answer {
+    font-size: 16px;
+  }
+  
+  .faq-icon-blue {
+    color: #007bff;
+  }
+  
+  .faq-icon-orange {
+    color: #ff9800;
+  }
+  
+  .faq-illustration {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .illu {
+    height: 300px;
+  }
+  
+  .what {
+    height: 300px;
+  }
+  
+  header .header-nav .nav-img img {
+    width: 50px;
+  }
