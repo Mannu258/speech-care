@@ -1,5 +1,5 @@
 .faq-header {
-  background-color: #007bff;
+  background-color:#450e0a;
   color: #ffffff;
   font-weight: bold;
   padding: 20px;
@@ -61,4 +61,12 @@ header .header-nav .nav-img img {
   color: white;
   z-index: 1100;
   /* Higher z-index than the call button */
+}
+@media only screen and (max-width: 768px) {
+  html {
+      background-size: contain; /* Adjust as needed */
+  }
+}
+header .header-nav .nav-item ul li{
+  padding: 19px;
 }
